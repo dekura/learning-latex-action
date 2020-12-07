@@ -74,6 +74,7 @@
 \RequirePackage{tabu}
 \RequirePackage{xifthen}
 \RequirePackage{xparse}
+% \RequirePackage{CTEX}
 
 % Personal info
 \newcommand*{\name}[1]{\gdef\@name{#1}}
@@ -178,7 +179,7 @@
   dashed=false,
   doi=false,
   isbn=false,
-  url=false,
+  url=true,
   giveninits=true,
   maxbibnames=10,
   sorting=ddatent,

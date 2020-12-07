@@ -244,3 +244,4 @@ TSWLatexianTemp*
 # build result
 /example/main.pdf
 /example/tikz-example.pdf
+.DS_Store
