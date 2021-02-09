@@ -184,10 +184,6 @@
   maxbibnames=10,
   sorting=ddatent,
 ]{biblatex}
-% \RequirePackage[
-% backend=biber,
-% style=alphabetic,
-% ]{biblatex}
 
 % declare custom field `usera` as the starting page
 % Ref: https://tex.stackexchange.com/a/485880/16996
@@ -259,7 +255,7 @@
 \renewcommand*{\mkbibnameprefix}[1]{\ifitemannotation{highlight}{\mkbibbold{#1}}{#1}}
 \renewcommand*{\mkbibnamesuffix}[1]{\ifitemannotation{highlight}{\mkbibbold{#1}}{#1}}
 \DeclareFieldFormat{addendum}{\textcolor{Gray}{#1}}
-% \defbibenvironment{bibliography}{\begin{enumerate}}{\end{enumerate}}{\item}
+\defbibenvironment{bibliography}{\begin{enumerate}}{\end{enumerate}}{\item}
 
 \newcommand*{\publications}[1]{%
   \begin{refsection}[#1]
